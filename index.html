@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Web & App Development</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--using Google fonts-->
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <!--using FontAwesome---------------->
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section>
+    <!--navigation-->
+        <nav>
+        <!--logo-->
+        <a href="index.html" class="logo">Web & App Development</a>
+        <!--menu-->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="team.html">Our team</a></li>
+                <li><div class="dropdown">
+                    Our services <i class="arrow down"></i>
+                    <div class="dropdown-content">
+                      <a href="web.html">Web & App Development</a>
+                      <a href="design.html">Web Designing</a>
+                      <a href="market.html">Digital Marketing</a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+                
+            </ul>
+            <div class="toggle"></div>
+        </nav>
+      <nav class="main-nav">  <form>
+            <input type="search" placeholder="Search">
+            <button>Go</button>
+          </form>
+          </nav>
+        <!--text----------------------->
+		<div class="text-container">
+            <div class="animate-flicker"><p>Hello!</p></div>
+		    <p>We&#8217;re a team</p>
+            <p>of Web & App <br>Developers</p>
+            <p> We also provide Digital marketing services.</p>
+            <button class="dwl-resume"><a href="team.html">Meet our team</a></button>
+            <button class="about-me"><a href="about.html">More info</a></button>
+        </div>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <div class="main">
+	<div class = "border">
+		<div class = "inner-cutout"> 
+			<h1 class="knockout"> <img alt="me" class="me" src="images/web-development.png"> </h1>
+		</div>
+	</div>
+</div>
+	<!--my picture---------------------->
+	 
+    </section>
+
+      <!--footer--------------->
+ <br><br><footer>
+    <!--heading-->
+ <marquee direction="right" behavior="alternate" width="60%"><p>You can connect with us on other Social media platforms</p></marquee>
+    <!--paragraph-->
+    <p></p>
+    <!--social-->
+   <div class="social-icons">
+   <a href="#"><i class="fab fa-facebook-f"></i></a>
+   <a href="#"><i class="fab fa-twitter"></i></a>
+   <a href="#"><i class="fab fa-instagram"></i></a>
+   <a href="#"><i class="fab fa-youtube"></i></a>
+   </div>
+    <!--copyright-->
+    <p class="copyright">Copyright by Irene</p>
+</footer>
+   <!--social-attach-bar-->
+   <div class="social">
+   <a href="#"><i class="fab fa-facebook-f"></i></a>
+   <a href="#"><i class="fab fa-twitter"></i></a>
+   <a href="#"><i class="fab fa-instagram"></i></a>
+   <a href="#"><i class="fab fa-youtube"></i></a>
+   </div>
+ <!--JQUery-------------------->
+ <script type="text/javascript" src="js/JQuery.js"></script>
+ <script type="text/javascript">
+ $(document).ready(function(){
+     $('.toggle').click(function(){
+         $('.toggle').toggleClass('active')
+         $('nav').toggleClass('active')
+     })
+ })
+ </script>
+</body>
+    
+</html>
